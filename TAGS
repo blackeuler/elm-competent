@@ -1,0 +1,38 @@
+
+src/Main.elm,1147
+module MainMain1,0
+main =main10,189
+type alias Model =type18,298
+type alias ModelModel18,298
+type TurnTurn24,369
+    = OO25,379
+    | XX26,387
+not v =not30,416
+type alias Board =type39,495
+type alias BoardBoard39,495
+type CellCell43,530
+    = CellCell44,540
+type alias Position =type47,575
+type alias PositionPosition47,575
+startBoard =startBoard54,652
+win board =win68,1001
+diagWin board =diagWin73,1086
+majorDiagWin board =majorDiagWin78,1178
+minorDiagWin board =minorDiagWin89,1473
+horizontalOVertical board =horizontalOVertical101,1782
+verticalWin board =verticalWin106,1885
+horizontalWin board =horizontalWin112,2029
+horizontal row board =horizontal118,2181
+vertical col board =vertical123,2296
+getColValue col board =getColValue128,2425
+getRowValue row board =getRowValue134,2596
+init =init140,2732
+type MsgMsg144,2784
+    = ResetReset145,2793
+    | ClickClick146,2805
+update msg model =update150,2859
+updateCell board pos turn =updateCell160,3103
+view model =view173,3341
+viewGrid board =viewGrid187,3591
+viewCell cell =viewCell200,3861
+showTurn trn =showTurn213,4234
